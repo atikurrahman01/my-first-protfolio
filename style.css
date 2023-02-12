@@ -13,7 +13,7 @@ body {
 }
 
 
-section {
+.frexible-container {
     display: flex;
     margin-bottom: 200px;
 }
@@ -54,4 +54,32 @@ section {
 
 .half-sss img {
     width: 80%;
+}
+
+.orenge {
+    color: orange;
+}
+
+.Red {
+    color: rgba(226, 61, 11, 0.836);
+    width: 800;
+    font-size: 50px;
+}
+
+.box-shadow {
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 5px 40px black;
+}
+
+#box-color0 {
+    border-left: 8px solid rgba(0, 174, 255, 0.712);
+}
+
+#box-color1 {
+    border-left: 8px solid gold;
+}
+
+footer p {
+    text-align: center;
 }
